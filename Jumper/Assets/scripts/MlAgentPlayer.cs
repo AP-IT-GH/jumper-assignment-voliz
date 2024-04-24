@@ -20,7 +20,8 @@ public class MLAgentPlayer : Agent
     public override void OnActionReceived(ActionBuffers actionBuffers)
     {
         var action = actionBuffers.ContinuousActions[0];
-        if (action == 1)
+        var desAction = actionBuffers.DiscreteActions[0];
+        if (action == 1 || desAction == 1)
         {
             UpForce();
             //thrust.SetActive(true);
@@ -39,10 +40,19 @@ public class MLAgentPlayer : Agent
     public override void Heuristic(in ActionBuffers actionsOut)
     {
         var continuousActionsOut = actionsOut.ContinuousActions;
+        var discreteActionsOut = actionsOut.DiscreteActions;
+
+        // Initialize continuous actions
         continuousActionsOut[0] = 0;
+
+        // Initialize discrete actions
+        discreteActionsOut[0] = 0;
+
+        // Check for jump input
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            continuousActionsOut[0] = 1;
+            continuousActionsOut[0] = 1; // Apply thrust
+            discreteActionsOut[0] = 1;   // Jump action
             Debug.Log("Up arrow key pressed");
         }
     }
