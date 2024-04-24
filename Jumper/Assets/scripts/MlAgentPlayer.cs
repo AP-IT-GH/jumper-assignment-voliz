@@ -72,7 +72,7 @@ public class MLAgentPlayer : Agent
         }
         if (collision.gameObject.CompareTag("Ground"))
         {
-            AddReward(0.04f);
+            AddReward(0.0f);
         }
     }
 
@@ -80,7 +80,7 @@ public class MLAgentPlayer : Agent
     {
         if (other.CompareTag("wallreward"))
         {
-            AddReward(0.1f);
+            AddReward(0.5f);
             points++;
             score.text = points.ToString();
         }
