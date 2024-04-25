@@ -2,22 +2,58 @@
     "jumper": {
         "checkpoints": [
             {
-                "steps": 14390,
-                "file_path": "results\\JumperAgent\\jumper\\jumper-14390.onnx",
-                "reward": 2.218484484788143,
-                "creation_time": 1714054248.537334,
+                "steps": 1499981,
+                "file_path": "results\\JumperAgent\\jumper\\jumper-1499981.onnx",
+                "reward": 4.407178842104399,
+                "creation_time": 1714059083.7942994,
                 "auxillary_file_paths": [
-                    "results\\JumperAgent\\jumper\\jumper-14390.pt"
+                    "results\\JumperAgent\\jumper\\jumper-1499981.pt"
+                ]
+            },
+            {
+                "steps": 1999998,
+                "file_path": "results\\JumperAgent\\jumper\\jumper-1999998.onnx",
+                "reward": 4.415813312974087,
+                "creation_time": 1714059928.3828795,
+                "auxillary_file_paths": [
+                    "results\\JumperAgent\\jumper\\jumper-1999998.pt"
+                ]
+            },
+            {
+                "steps": 2499983,
+                "file_path": "results\\JumperAgent\\jumper\\jumper-2499983.onnx",
+                "reward": 4.181428125926426,
+                "creation_time": 1714060767.013469,
+                "auxillary_file_paths": [
+                    "results\\JumperAgent\\jumper\\jumper-2499983.pt"
+                ]
+            },
+            {
+                "steps": 2999987,
+                "file_path": "results\\JumperAgent\\jumper\\jumper-2999987.onnx",
+                "reward": 3.9887171999002113,
+                "creation_time": 1714061610.7658,
+                "auxillary_file_paths": [
+                    "results\\JumperAgent\\jumper\\jumper-2999987.pt"
+                ]
+            },
+            {
+                "steps": 3298266,
+                "file_path": "results\\JumperAgent\\jumper\\jumper-3298266.onnx",
+                "reward": 4.204705333008485,
+                "creation_time": 1714062151.8066738,
+                "auxillary_file_paths": [
+                    "results\\JumperAgent\\jumper\\jumper-3298266.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 14390,
+            "steps": 3298266,
             "file_path": "results\\JumperAgent\\jumper.onnx",
-            "reward": 2.218484484788143,
-            "creation_time": 1714054248.537334,
+            "reward": 4.204705333008485,
+            "creation_time": 1714062151.8066738,
             "auxillary_file_paths": [
-                "results\\JumperAgent\\jumper\\jumper-14390.pt"
+                "results\\JumperAgent\\jumper\\jumper-3298266.pt"
             ]
         }
     },
