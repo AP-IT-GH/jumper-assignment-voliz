@@ -1,14 +1,14 @@
 using UnityEngine;
 
-public class Obstacle : MonoBehaviour
+public class ObstacleSide : MonoBehaviour
 {
     public float Movespeed = 3.5f;
 
 
     private void Update()
     {
-        
-        this.transform.Translate(Vector3.right * Movespeed * Time.deltaTime);
+
+        this.transform.Translate(Vector3.left * Movespeed * Time.deltaTime);
     }
     private void OnCollisionEnter(Collision collision)
     {

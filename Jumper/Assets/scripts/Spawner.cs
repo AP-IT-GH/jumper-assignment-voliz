@@ -4,8 +4,8 @@ public class Spawner : MonoBehaviour
 {
     public GameObject prefab = null;
     public Transform spawn = null;
-    public float minTime = 1.0f;
-    public float maxTime = 3.0f;
+    public float minTime = 3.0f;
+    public float maxTime = 6.0f;
 
     private void Start()
     {

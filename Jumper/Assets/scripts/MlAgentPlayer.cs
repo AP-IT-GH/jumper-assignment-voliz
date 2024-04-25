@@ -80,7 +80,7 @@ public class MLAgentPlayer : Agent
     {
         if (other.CompareTag("wallreward"))
         {
-            AddReward(0.1f);
+            AddReward(0.4f);
             points++;
             score.text = points.ToString();
         }
