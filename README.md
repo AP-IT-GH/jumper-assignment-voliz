@@ -1,6 +1,8 @@
 # Documentatie ML Agents Deel III: Jumper Exercise 
 In dit document zult u leren een ML-agent te maken in Unity die kan springen over obstakels die naar hem toe komen van beide richtingen. Deze obstakels krijgen ook elke episode een andere snelheid.
-![Jumping](images/jumping.gif)
+
+![Jumping](Images/jumping.gif)
+
 ## Gemaakt Door
 
 - [Feruz Fazilov (voliz) 2ITSOF2](https://www.github.com/voliz)
@@ -9,7 +11,7 @@ In dit document zult u leren een ML-agent te maken in Unity die kan springen ove
 ## Vereisten
 
 - [Unity hub](https://unity.com/unity-hub) met editor versie 2022.3.19f1
-    - nieuw project met de [ml-agents unity](images/mlagentsUnity.png) package
+    - nieuw project met de [ml-agents unity](Images/mlagentsUnity.png) package
     
 - [Anaconda](https://www.anaconda.com/)
     - Python versie 3.9.18 environment
@@ -28,11 +30,11 @@ In dit document zult u leren een ML-agent te maken in Unity die kan springen ove
     - [ML-agent script](Jumper/Assets/scripts/MlAgentPlayer.cs)
     - Behaviour parameters
     - Ray perception Sensor 3D
-  ![Agent Parameters](images/agent.png)
+  ![Agent Parameters](Images/agent.png)
     - Let op de rotation, dit moet je doen om de rays verticaal te maken 
-    - ![Agent rotation](images/agentrotation.png)
+    - ![Agent rotation](Images/agentrotation.png)
     - de agent bevat ook een empty Rays child voor de andere kant van obstakels in het kruispunt
-    ![Rays](images/rays.png)
+    ![Rays](Images/rays.png)
   - Een square "Muur" achter de agent (om te zien of je obstacle successvol is gepasserd)
   - Een square "TopWall" boven de agent (om te vermijden dat je bal helemaal naar boven vliegt)
   - Een square "Obstacle" voor de agent
@@ -45,7 +47,7 @@ In dit document zult u leren een ML-agent te maken in Unity die kan springen ove
 
 U zult nu een structuur hebben dat er als volgt uit ziet:
 
-![Basic Environment](images/environment.png) 
+![Basic Environment](Images/environment.png) 
 
 ## Training ML-Agent Unity
 Maak een nieuwe folder binnen unity "Config" en plaats de [jumper.yaml]() hier binnen.
