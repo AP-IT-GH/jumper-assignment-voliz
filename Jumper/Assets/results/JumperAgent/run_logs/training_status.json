@@ -2,31 +2,40 @@
     "jumper": {
         "checkpoints": [
             {
-                "steps": 499972,
-                "file_path": "results\\JumperAgent\\jumper\\jumper-499972.onnx",
-                "reward": 3.6519993537664415,
-                "creation_time": 1714066063.5875359,
+                "steps": 499971,
+                "file_path": "results\\JumperAgent\\jumper\\jumper-499971.onnx",
+                "reward": 3.5704342385996943,
+                "creation_time": 1714165054.2031965,
                 "auxillary_file_paths": [
-                    "results\\JumperAgent\\jumper\\jumper-499972.pt"
+                    "results\\JumperAgent\\jumper\\jumper-499971.pt"
                 ]
             },
             {
-                "steps": 659434,
-                "file_path": "results\\JumperAgent\\jumper\\jumper-659434.onnx",
-                "reward": null,
-                "creation_time": 1714066358.724791,
+                "steps": 835994,
+                "file_path": "results\\JumperAgent\\jumper\\jumper-835994.onnx",
+                "reward": 4.015999495983124,
+                "creation_time": 1714166101.7600143,
                 "auxillary_file_paths": [
-                    "results\\JumperAgent\\jumper\\jumper-659434.pt"
+                    "results\\JumperAgent\\jumper\\jumper-835994.pt"
+                ]
+            },
+            {
+                "steps": 868738,
+                "file_path": "results\\JumperAgent\\jumper\\jumper-868738.onnx",
+                "reward": 4.479999259710312,
+                "creation_time": 1714168020.918891,
+                "auxillary_file_paths": [
+                    "results\\JumperAgent\\jumper\\jumper-868738.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 659434,
+            "steps": 868738,
             "file_path": "results\\JumperAgent\\jumper.onnx",
-            "reward": null,
-            "creation_time": 1714066358.724791,
+            "reward": 4.479999259710312,
+            "creation_time": 1714168020.918891,
             "auxillary_file_paths": [
-                "results\\JumperAgent\\jumper\\jumper-659434.pt"
+                "results\\JumperAgent\\jumper\\jumper-868738.pt"
             ]
         }
     },
