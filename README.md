@@ -30,9 +30,7 @@ In dit document zult u leren een ML-agent te maken in Unity die kan springen ove
     - [ML-agent script](Jumper/Assets/scripts/MlAgentPlayer.cs)
     - Behaviour parameters
     - Ray perception Sensor 3D
-
 ![Agent Parameters](Images/agent.png)
-
     -  Let op de rotation, dit moet je doen om de rays verticaal te maken 
 ![Agent rotation](Images/agentrotation.png)
     - de agent bevat ook een empty Rays child voor de andere kant van obstakels in het kruispunt
